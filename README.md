@@ -6,7 +6,7 @@ Work in progress, repo should be final by August 27, 2018.
 Temporary instructions:
 
 1. Clone this repo
-2. Complete the cloned repo with additiona directories as follows:
+2. Complete the cloned repo with additional directories as follows:
 <root of your cloned repo>/models/
                           /data/
                           /input/
