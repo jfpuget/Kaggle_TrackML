@@ -30,7 +30,7 @@ class Clusterer(object):
 
         data1['xcos'] = np.cos(data1.theta)
         data1['ysin'] = np.sin(data1.theta)
-        data1['zr'] = (np.arcsinh((data1.z - z) / (data1.rt1)) / 3.5)
+        data1['zr'] = (np.arcsinh((data1.z - z) / (0.7 * data1.rt1)) / 3.5)
         dfs = data1[['xcos', 'ysin', 'zr']]
         clusters0 = DBSCAN(eps=self.eps_, 
                             min_samples=2, 
