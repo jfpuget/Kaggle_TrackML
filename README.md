@@ -14,9 +14,13 @@ Code for the TrackML competition on Kaggle: https://www.kaggle.com/c/trackml-par
 
 `
   ./data/
+
   ./input/
+
   ./submissions/final/
+
   ./submissions/final_inner/
+
   ./submissions/merge_final/
   `
 - Edit the base_path value in the scripts in src directory to match where you cloned the code.
