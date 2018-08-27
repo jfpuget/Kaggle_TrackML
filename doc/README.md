@@ -1,1 +1,1 @@
-Documentation of the approache used in that challeng.
+Documentation of the approach used in that challenge.
