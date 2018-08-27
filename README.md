@@ -22,6 +22,8 @@ Code for the TrackML competition on Kaggle: https://www.kaggle.com/c/trackml-par
 
   ./submissions/merge_final/
   
+  The test events data should then be downloaded into the ./input directory.
+  
 - Edit the base_path value in the scripts in src directory to match where you cloned the code.
 - Edit the number of Pool workers in the scripts final.py, final_inner.py and merge_final.py to match the number of processors of your machine.
 
