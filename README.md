@@ -11,6 +11,7 @@ Code for the TrackML competition on Kaggle: https://www.kaggle.com/c/trackml-par
 
 5. Running the code is rather simple:
 - Complete the cloned repo with additional directories as follows:
+
 `<root of your cloned repo>/data/
 
                           /input/
