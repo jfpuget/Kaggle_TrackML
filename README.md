@@ -23,16 +23,20 @@ Code for the TrackML competition on Kaggle: https://www.kaggle.com/c/trackml-par
   ./submissions/merge_final/
   
 - Edit the base_path value in the scripts in src directory to match where you cloned the code.
-- Edit the number of Pool workers in the scripts final.py, final_inner.py and merge8final.py to match the number of processors of your machine.
+- Edit the number of Pool workers in the scripts final.py, final_inner.py and merge_final.py to match the number of processors of your machine.
 
 - Run the scripts in that order:
+
  data_prep_final.py
+ 
  final.py
+ 
  final_inner.py
+ 
  merge_final.py
  
 The last script produces a file named merge_final.csv in the submissions/ directory.  This file can be submitted to Kaggle server to get a private LB score slightly above 0.800
 
-The first two scripts produce a simplified model file named final.csv in the submissions/ directory.  This file can be submited to Kaggle server to get a private LB score slightly above 0.787. 
+Running only the first two scripts produce a simplified model file named final.csv in the submissions/ directory.  This file can be submited to Kaggle server to get a private LB score slightly above 0.787. 
 
-Running the above scripts can take days.  We provide final_150.py that runs in about 150 second per event with one i7 core and produces an output file named final_150.csv in the submissions/ directory.  This file can be submitted to Kaggle server to yield a private LB score above 0.51.  
+Running the above scripts can take days.  We provide final_150.py for fatser runs. Edit the base_path and the number of worker sin the pool before running it. That scipt runs in about 150 second per event with one i7 core and produces an output file named final_150.csv in the submissions/ directory. This file can be submitted to Kaggle server to yield a private LB score above 0.51.  
