@@ -27,15 +27,15 @@ That solution got ranked 9th in the competition.  Read the documentation before 
   The test events data should then be downloaded into the ./input directory.
   
 - Edit the base_path value in the scripts in src directory to match where you cloned the code.
-- Edit the number of Pool workers in the scripts final.py, final_inner.py and merge_final.py to match the number of processors of your machine.
+- Edit the number of Pool workers in the scripts final_test.py, final_inner_test.py and merge_final.py to match the number of processors of your machine.
 
 - Run the scripts in that order:
 
  data_prep_final.py
  
- final.py
+ final_test.py
  
- final_inner.py
+ final_inner_test.py
  
  merge_final.py
  
@@ -43,4 +43,4 @@ The last script produces a file named merge_final.csv in the submissions/ direct
 
 Running only the first two scripts produce a simplified model file named final.csv in the submissions/ directory.  This file can be submited to Kaggle server to get a private LB score slightly above 0.787. 
 
-Running the above scripts can take days.  We provide final_150.py for faster runs. Edit the base_path and the number of workers in the pool before running it. That scipt runs in about 150 second per event with one i7 core and produces an output file named final_150.csv in the submissions/ directory. This file can be submitted to Kaggle server to yield a private LB score above 0.51.  
+Running the above scripts can take days.  We provide final_150.py for faster runs. Edit the base_path and the number of workers in the pool before running it. Also create a directory final_150 in the submissions directory. That scipt runs in about 150 second per event with one i7 core and produces an output file named final_150.csv in the submissions/ directory. This file can be submitted to Kaggle server to yield a private LB score above 0.51.  
