@@ -7,7 +7,7 @@ Code for the TrackML competition on Kaggle: https://www.kaggle.com/c/trackml-par
 
 3. We used various linux versions, depending on the machine used, see 1 above.
 
-4. An environment.yml is provided but we use a much smaller set of packages than indicated.  The code can run with only numpy, pandas, pickle, and scikit-learn installed on top of Python 3.6.  EDA notebooks require anaconda, matplotlib, and seaborn. Version numbers are provide in the yaml file.
+4. An environment.yml is provided but we use a much smaller set of packages than indicated.  The code can run with only numpy, pandas, pickle, and scikit-learn installed on top of Python 3.6.  EDA notebooks require anaconda, matplotlib, and seaborn. Version numbers are provided in the yaml file.
 
 5. Running the code is rather simple:
 - Complete the cloned repo with additional directories as follows:
