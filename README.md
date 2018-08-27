@@ -11,12 +11,12 @@ Code for the TrackML competition on Kaggle: https://www.kaggle.com/c/trackml-par
 
 5. Running the code is rather simple:
 - Complete the cloned repo with additional directories as follows:
-<root of your cloned repo>/data/
+`<root of your cloned repo>/data/
                           /input/
                           /submissions/final/
                           /submissions/final_inner/
                           /submissions/merge_final/
-  
+  `
 - Edit the base_path value in the scripts in src directory to match where you cloned the code.
 - Edit the number of Pool workers in the scripts final.py, final_inner.py and merge8final.py to match the number of processors of your machine.
 
