@@ -1,7 +1,7 @@
 # Kaggle_TrackML
 Code for the TrackML competition on Kaggle: https://www.kaggle.com/c/trackml-particle-identification
 
-1. Hardware used. For EDA and model tuning on train events: an Intel box with a 4 core i7 at 4.2 GHZ and 64 GB of memory, running ubuntu 16.04. For computing tracks on test events, either a Dell T810 with 20 cores Xeon CPU at 2.4 GHZ, running ubuntu 14.04, and 64 GB of memory, or an IBM AC922 server with 40 P9 cores and 126 GB of memory running RHEL.
+1. Hardware used. For EDA and model tuning on train events: an Intel box with a 4 core i7 at 4.2 GHZ and 64 GB of memory, running ubuntu 16.04. For computing tracks on test events, either a Dell T810 with 20 cores Xeon CPU at 2.4 GHZ, running ubuntu 14.04, and 64 GB of memory, or an IBM AC922 server with 40 P9 cores and 256 GB of memory running RHEL.
 
 2. The code consumes about 3GB per worker, hence memory is not an issue really.  One should favor a large number of cores as tracks are computed for a number of events in parallel.
 
