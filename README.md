@@ -37,7 +37,7 @@ That solution got ranked 9th in the competition.  Read the documentation before 
  
  final_inner_test.py
  
- merge_final.py
+ merge_final_test.py
  
 The last script produces a file named merge_final.csv in the submissions/ directory.  This file can be submitted to Kaggle server to get a private LB score slightly above 0.800
 
