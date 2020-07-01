@@ -88,7 +88,7 @@ class Clusterer(object):
         mm = 1
         
         # loop over randoly chose track parameters
-        for ii in range(n_iter)): #tqdm(range(n_iter)):
+        for ii in range(n_iter): #tqdm(range(n_iter)):
             n = np.random.randint(0, len(scan_center))
             alpha0 = scan_center[n, 0]
             n = np.random.randint(0, len(scan_center))
