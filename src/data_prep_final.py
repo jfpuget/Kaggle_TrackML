@@ -4,6 +4,7 @@
 import pandas as pd
 import numpy as np
 import pickle as pkl
+from tqdm import tqdm_notebook as tqdm
 from collections import Counter
 
 from trackml.dataset import load_event
