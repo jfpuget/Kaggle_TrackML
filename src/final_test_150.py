@@ -6,6 +6,7 @@ import numpy as np
 import pickle as pkl
 from sklearn.cluster import DBSCAN
 from multiprocessing import Pool
+from tqdm import tqdm_notebook as tqdm
 
 base_path = '/home/jfpuget/Kaggle/TrackML/'
 
