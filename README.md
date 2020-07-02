@@ -41,6 +41,6 @@ That solution got ranked 9th in the competition.  Read the documentation before 
  
 The last script produces a file named merge_final.csv in the submissions/ directory.  This file can be submitted to Kaggle server to get a private LB score slightly above 0.800
 
-Running only the first two scripts produce a simplified model file named final.csv in the submissions/ directory.  This file can be submited to Kaggle server to get a private LB score slightly above 0.787. 
+Running only the first two scripts produce a simplified model file named final.csv in the submissions/ directory.  This file can be submitted to Kaggle server to get a private LB score slightly above 0.787. 
 
-Running the above scripts can take days.  We provide final_test_150.py for faster runs. Edit the base_path and the number of workers in the pool before running it. Also create a directory final_150 in the submissions directory. That scipt runs in about 150 second per event with one i7 core and produces an output file named final_150.csv in the submissions/ directory. This file can be submitted to Kaggle server to yield a private LB score above 0.51.  
+Running the above scripts can take days.  We provide final_test_150.py for faster runs. Edit the base_path and the number of workers in the pool before running it. Also create a directory final_150 in the submissions directory. That script runs in about 150 second per event with one i7 core and produces an output file named final_150.csv in the submissions/ directory. This file can be submitted to Kaggle server to yield a private LB score above 0.51.  
